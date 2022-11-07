@@ -1,10 +1,7 @@
 import posts from "./tuits.js";
 let tuits = posts;
 
-const createTuit = (req, res) => {}
-const findTuits  = (req, res) => {}
-const updateTuit = (req, res) => {}
-const deleteTuit = (req, res) => {}
+
 
 export default (app) => {
     app.post('/api/tuits', createTuit);
