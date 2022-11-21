@@ -26,8 +26,7 @@ const createTuit = (req, res) => {
     newTuit.title = "Node JS";
     newTuit.time = "Just now";
     newTuit.image =
-        "https://images.g2crowd.com/uploads/product/image/"
-        + "large_detail/large_detail_f0b606abb6d19089febc9faeeba5bc05/nodejs-development-services.png";
+        "/images/vineet1.jpg"
     tuits.push(newTuit);
     res.json(newTuit);
 }
