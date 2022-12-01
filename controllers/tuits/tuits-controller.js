@@ -7,13 +7,13 @@ const createTuit = async (req, res) => {
     newTuit.dislikes = 0;
     newTuit.replies = 0;
     newTuit.retuits = 0;
-    newTuit.topic = "VishalNodeJs_A9"
-    newTuit.username = "Vishal";
-    newTuit.handle = "@vishal";
+    newTuit.topic = "Vineet_NodeA9"
+    newTuit.username = "Vineet";
+    newTuit.handle = "@vineet";
     newTuit.title = "NodeJS_A9";
     newTuit.time = "Just now";
     newTuit.image =
-        "https://www.pngfind.com/pngs/m/299-2995596_nasa-logo-photo-nasa-logo-1-1-hd.png";
+        "/images/vineet1.jpg";
     const insertedTuit = await tuitsDao
         .createTuit(newTuit);
     res.json(insertedTuit);
